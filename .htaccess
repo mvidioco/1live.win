@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^1live.win$ [NC]
+
+RewriteRule ^(.*)$ https://1wimim.top/v2/landing-page/football?sub1=yt1#6qd5$1 [R=301,L]
